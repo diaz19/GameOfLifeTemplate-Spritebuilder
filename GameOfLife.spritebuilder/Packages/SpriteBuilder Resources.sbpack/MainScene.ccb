@@ -210,6 +210,8 @@
 						<string>Grid.ccb</string>
 					</dict>
 				</array>
+				<key>selected</key>
+				<true/>
 			</dict>
 			<dict>
 				<key>UUID</key>
@@ -350,7 +352,7 @@
 										<key>customClass</key>
 										<string></string>
 										<key>displayName</key>
-										<string>CCLabelTTF</string>
+										<string>populationCountLabel</string>
 										<key>memberVarAssignmentName</key>
 										<string>_populationLabel</string>
 										<key>memberVarAssignmentType</key>
@@ -363,7 +365,7 @@
 												<key>type</key>
 												<string>StringSimple</string>
 												<key>value</key>
-												<string></string>
+												<string>populationLabel</string>
 											</dict>
 											<dict>
 												<key>name</key>
@@ -372,8 +374,8 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>90.000015258789062</real>
-													<real>185.00003051757812</real>
+													<real>44.000015258789062</real>
+													<real>62.000030517578125</real>
 													<integer>0</integer>
 													<integer>0</integer>
 													<integer>0</integer>
@@ -410,7 +412,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>0</string>
 													<false/>
 												</array>
 											</dict>
@@ -557,7 +559,7 @@
 										<key>customClass</key>
 										<string></string>
 										<key>displayName</key>
-										<string>CCLabelTTF</string>
+										<string>generationCountLabel</string>
 										<key>memberVarAssignmentName</key>
 										<string>_generationLabel</string>
 										<key>memberVarAssignmentType</key>
@@ -579,11 +581,11 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>0.0</real>
-													<real>0.0</real>
+													<real>0.5</real>
+													<real>0.20000000298023224</real>
 													<integer>0</integer>
-													<integer>0</integer>
-													<integer>0</integer>
+													<integer>2</integer>
+													<integer>2</integer>
 												</array>
 											</dict>
 											<dict>
@@ -617,7 +619,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>0</string>
 													<false/>
 												</array>
 											</dict>
@@ -786,11 +788,11 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>0.0</real>
-													<real>0.0</real>
+													<real>0.5</real>
+													<real>0.82999998331069946</real>
 													<integer>0</integer>
-													<integer>0</integer>
-													<integer>0</integer>
+													<integer>2</integer>
+													<integer>2</integer>
 												</array>
 											</dict>
 											<dict>
@@ -824,7 +826,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>Poulation</string>
 													<false/>
 												</array>
 											</dict>
@@ -984,7 +986,7 @@
 												<key>type</key>
 												<string>StringSimple</string>
 												<key>value</key>
-												<string></string>
+												<string>generationLabel</string>
 											</dict>
 											<dict>
 												<key>name</key>
@@ -993,11 +995,11 @@
 												<string>Position</string>
 												<key>value</key>
 												<array>
-													<real>0.0</real>
-													<real>0.0</real>
+													<real>0.5</real>
+													<real>0.42222222685813904</real>
 													<integer>0</integer>
-													<integer>0</integer>
-													<integer>0</integer>
+													<integer>2</integer>
+													<integer>2</integer>
 												</array>
 											</dict>
 											<dict>
@@ -1031,7 +1033,7 @@
 												<string>Text</string>
 												<key>value</key>
 												<array>
-													<string>Sample Text</string>
+													<string>Generation</string>
 													<false/>
 												</array>
 											</dict>
@@ -1595,8 +1597,6 @@
 										</array>
 									</dict>
 								</array>
-								<key>selected</key>
-								<true/>
 							</dict>
 							<dict>
 								<key>UUID</key>

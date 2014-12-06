@@ -142,9 +142,9 @@ static const int GRID_COLUMNS = 10;
 
 - (void) updateCreatures
 {
-    for (int i=0; i<GRID_COLUMNS; i++)
+    for (int i=0; i<GRID_ROWS; i++)
     {
-        for (int j=0; j<GRID_ROWS; j++)
+        for (int j=0; j<GRID_COLUMNS; j++)
         {
             Creature *currentCreature = _gridArray[i][j];
             if (currentCreature.livingNeighbors == 3){
